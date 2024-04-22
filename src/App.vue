@@ -8,6 +8,7 @@
   import { ref, provide } from 'vue';
   import axios from 'axios';
   import CardList from './components/CardList.vue';
+  import Sort from "./components/Sort.vue";
 
   const firstList = ref([]);
   const secondList = ref([]);
